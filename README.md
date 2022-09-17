@@ -1,3 +1,9 @@
+# Petrov day game at Washifold 2022
+
+This new game will be played at the Manifold house in DC the day after EA Global this year. 
+
+It has elements of RPG, social deduction, and prediction markets. 
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.

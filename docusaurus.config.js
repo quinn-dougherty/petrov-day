@@ -37,14 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/quinn-dougherty/petrov-day',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -95,6 +88,10 @@ const config = {
                 label: 'Manifold group (required for game)',
                 href: 'https://manifold.markets/group/washifold',
               },
+              {
+                label: 'Docs site on github',
+                href: 'https://github.com/quinn-dougherty/petrov-day',
+              },
             ],
           },
           {
@@ -103,6 +100,10 @@ const config = {
               {
                 label: 'Original Petrov Day litany by Eliezer Yudkowsky',
                 href: 'https://www.lesswrong.com/posts/QtyKq4BDyuJ3tysoK/9-26-is-petrov-day',
+              },
+              {
+                label: 'Ritual pdf by James Babcock',
+                href: 'http://petrovday.com/downloads/PetrovDay-OrganizerGuide.pdf',
               },
             ],
           },
