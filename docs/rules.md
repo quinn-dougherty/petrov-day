@@ -10,7 +10,7 @@ Teams are isolated in different rooms. The DM is the only one walking from room 
 
 ## Candles/state
 
-The candles are interpreted as digits 0 through 7 inclusive, big-endian. In other words, for candle state ``(x1, x2, x3)` where each `xi` is 1 if the candle in slot `i` is on and 0 if the candle in slot `k` is off, the state = `x1 * 2 ^ 2 + x2 * 2 ^ 1 + x3 * 2 ^ 0`. 
+The candles are interpreted as digits 0 through 7 inclusive, big-endian. In other words, for candle state `(x1, x2, x3)` where each `xi` is 1 if the candle in slot `i` is on and 0 if the candle in slot `k` is off, the state = `x1 * 2 ^ 2 + x2 * 2 ^ 1 + x3 * 2 ^ 0`. 
 
 ### Examples: 
 - For candle sequence LIT LIT DOUSED, state = `1 * 2 ^ 2 + 1 * 2 ^ 1 + 0 * 2 ^ 0` = `1 * 4 + 1 * 2 + 0 * 1` = `4 + 2`
@@ -19,6 +19,10 @@ The candles are interpreted as digits 0 through 7 inclusive, big-endian. In othe
 ## Signals - state modification
 
 At each turn, factions can send one bit-slot pair `(i, x)` to another `num_factions - 2` factions. The DM conveys this signal by walking into that faction's room and setting the bit in slot `i` to `x`. 
+
+## Signals - bombs
+
+Every turn, factions have the opportunity to blow up another faction. They do this by voting unanimously. (Remember, if anything blows up, everyone not on the red team loses). 
 
 ### In case of non-agreement
 
@@ -62,7 +66,7 @@ The DM files a free response market `Faction A: Who is the red team?` at the beg
 
 ## The dictator
 
-When `state mod 4 == 0`, the DM randomly assigns a faction member DICTATOR for a turn. The room goes silent, and the next turn is determined by the DICTATOR sans any non-marketized coordination with their compatriots. If players attempt to communicate OTHER THAN 1. by betting/trading/predicting in this state, or 2. nonverbally gesturing to indicate that new market information is available, the number of turns until endgame is incremented per infraction. The 60 second timer is still available to the DM to move things along. 
+When `state mod 4 == 0`, the DM randomly assigns a faction member DICTATOR for a turn. The room goes silent, and the next turn is determined by the DICTATOR sans any non-marketized coordination with their compatriots. If players attempt to communicate OTHER THAN 1. by betting/trading/predicting in this state, OR 2. nonverbally gesturing to indicate that new market information is available, the number of turns until endgame is incremented per infraction. The 60 second timer is still available to the DM to move things along. 
 
 ## Noise
 
