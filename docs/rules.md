@@ -79,11 +79,6 @@ The minigame can be triggered arbitrarily many times throughout the game.
 
 When `state mod 4 == 0`, the DM randomly assigns a faction member DICTATOR for a turn. The room goes silent, and the next turn is determined by the DICTATOR sans any non-marketized coordination with their compatriots. If players attempt to communicate OTHER THAN 1. by betting/trading/predicting in this state, OR 2. nonverbally gesturing to indicate that new market information is available, the number of turns until endgame is incremented per infraction. The 60 second timer is still available to the DM to move things along. 
 
-<!--
-## Noise
-
-When `state mod 4 == 1` in any faction, the DM will add random bets to an arbitary market. 
---> 
 ## Win condition
 
 Surviving 15 turns or one hour without blowing anything up. 
