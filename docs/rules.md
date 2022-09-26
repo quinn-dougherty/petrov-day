@@ -12,7 +12,7 @@ Teams are isolated in different rooms. The DM is the only one walking from room 
 
 Every turn, factions have the opportunity to blow up another faction. They do this by voting unanimously. (Remember, if anything blows up, everyone not on the red team loses). 
 
-## Signals - markets
+## Signals - markets (DM's)
 
 At the start of the game, the DM files the following markets
 
@@ -24,6 +24,10 @@ In the AGI minigame, another market kind will be filed.
 Players can communicate **only** name-faction associations in the comments of markets. If the DM catches players trying to communicate anything that doesn't look like "Alice is on faction `A`" in the comments, everything blows up immediately. 
 
 Any signal players can think to convey by betting/trading/predicting is legal. 
+
+## Signals - markets (players)
+
+The players may create and bet on markets as they wish. 
 
 ## Social deduction - the red team
 
