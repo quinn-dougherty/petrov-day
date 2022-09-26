@@ -27,7 +27,7 @@ Any signal players can think to convey by betting/trading/predicting is legal.
 
 ## Signals - markets (players)
 
-The players may create and bet on markets as they wish. 
+The players may create and bet on markets as they wish, but they may not comment on any market that is not created by the DM. 
 
 ## Social deduction - the red team
 
