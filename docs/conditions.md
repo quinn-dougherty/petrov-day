@@ -19,3 +19,7 @@ Each player provides
 - A Manifold account with nonzero mana
 
 There should be at least one computer scientist in each group. 
+
+## RNG
+
+You can access the virtual die you'll need in [this](https://colab.research.google.com/drive/1IJzpoxVkkgUW3XYzgV57zxhf8b0cWzbe?usp=sharing) python notebook. 

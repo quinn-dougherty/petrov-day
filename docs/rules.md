@@ -48,7 +48,7 @@ In the beginning of the game, the DM publishes a list of `3 * num_factions` bits
 
 ## Signals - state modification
 
-At each turn, factions can send one bit-slot pair `(i, x)` to another `num_factions - 2` factions. The DM conveys this signal by walking into that faction's room and setting the bit in slot `i` to `x`. 
+At each turn, factions can send one slot-bit pair `(i, x)` to another `num_factions - 2` factions. The DM conveys this signal by walking into that faction's room and setting the bit in slot `i` to `x`. Note **the slot comes first in the pair**. 
 
 ### In case of non-agreement
 
@@ -75,11 +75,12 @@ The minigame can be triggered arbitrarily many times throughout the game.
 
 When `state mod 4 == 0`, the DM randomly assigns a faction member DICTATOR for a turn. The room goes silent, and the next turn is determined by the DICTATOR sans any non-marketized coordination with their compatriots. If players attempt to communicate OTHER THAN 1. by betting/trading/predicting in this state, OR 2. nonverbally gesturing to indicate that new market information is available, the number of turns until endgame is incremented per infraction. The 60 second timer is still available to the DM to move things along. 
 
+<!--
 ## Noise
 
 When `state mod 4 == 1` in any faction, the DM will add random bets to an arbitary market. 
-
+--> 
 ## Win condition
 
-Surviving 15 turns without blowing anything up. 
+Surviving 15 turns or one hour without blowing anything up. 
 
